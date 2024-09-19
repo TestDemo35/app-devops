@@ -10,7 +10,7 @@
 name: Build and deploy a container to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: MonAppDu35   # set this to your application's name
+  AZURE_WEBAPP_NAME: monappdu352   # set this to your application's name
   TAG: 1.0 # Le numéro du tag
   AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace }} # Définir le chemin d'accès à la web app.
   JAVA_VERSION: 17 # Définir la verison de Java
